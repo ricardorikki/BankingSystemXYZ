@@ -39,7 +39,7 @@ void Account::show_account() const
 	cout << "\n\t\t\tAccount Holder Name : ";
 	cout << AccountName;
 	cout << "\n\t\t\tType of Account : " << type;
-	cout << "\n\t\t\tBalance amount : " << deposit;
+	cout << "\n\t\t\tBalance amount : $" << deposit;
 }
 
 
@@ -92,7 +92,7 @@ void Account::setBalance(int bal)
 	Balance = bal;
 }
 
-long Account::getBalance()
+int Account::getBalance()
 {
 	return Balance;
 }

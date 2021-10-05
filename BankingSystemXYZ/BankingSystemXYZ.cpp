@@ -10,8 +10,7 @@ int main()
 	Account acc;
 
 
-	//system("pause>0");*/
-
+//*************************MENU*********************************
 
 	char ch;
 	int num;
@@ -34,6 +33,7 @@ int main()
 		cout << "\n\n\t\t\t\tSelect Your Option (1-8): ";
 		cin >> ch;
 
+//*****************SWITCH STATEMENT****************************
 		switch (ch)
 		{
 		case '1':

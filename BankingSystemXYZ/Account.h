@@ -8,7 +8,7 @@ private:
 	char AccountName[50];
 	int  deposit = 0;
 	char type;
-	int Balance = 0;
+	int  Balance = 0;
 
 public:
 
@@ -23,7 +23,7 @@ public:
 	char rettype() const;
 
 	void setBalance(int);
-	long getBalance();
+	int getBalance();
 	
 
 	void write_account();
